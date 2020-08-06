@@ -29,7 +29,7 @@
     "props": {
       "isFullModeStyle": false,
       "headline": "Shining chrome",
-      "callToActionMode": "link",
+      "callToActionMode": "button",
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "imgUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
