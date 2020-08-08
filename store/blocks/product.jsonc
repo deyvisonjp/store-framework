@@ -1,10 +1,10 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.rew#main"
+      "flex-layout.row#main"
     ]
   },
-  "flex-layout.rew#main": {
+  "flex-layout.row#main": {
     "props": {
       "marginTop": 6
     },
