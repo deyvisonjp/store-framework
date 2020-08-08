@@ -28,7 +28,7 @@
   },
   "product-brand": {
     "props": {
-      "blocksClass": "brand",
+      "height": "30",
       "displayMode": "logo"
     }
   }, 
@@ -55,7 +55,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "thumbnailImage": "image",
+      "showVariationsLabels": true,
       "showVariationsErrorMessage": true
     }
   },
