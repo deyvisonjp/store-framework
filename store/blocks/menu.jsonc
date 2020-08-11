@@ -1,6 +1,6 @@
 {
   "vtex.menu@2.x:menu#categories": {
-    "children": [
+    "blocks": [
       "menu-item#major-appliances",
       "menu-item#small-appliances",
       "menu-item#electronics"
