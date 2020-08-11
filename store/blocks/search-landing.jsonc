@@ -1,23 +1,24 @@
 {
   "store.custom#landing": {
     "blocks": [
-      "image",
-      "image#landingbanner", 
+      "image#landingbanner",
       "search-result-layout.customQuery"
     ]
   },
-  "image": {
+  "image#landingbanner": {
     "props": {
-      "minWidth": 100,
-      "src": "https://user-images.githubusercontent.com/18701182/69890324-d1792b80-12d3-11ea-911d-194d2cb778c8.png"
-    }
+      "src": "https://user-images.githubusercontent.com/18701182/69890324-d1792b80-12d3-11ea-911d-194d2cb778c8.png",
+      "minWidth": "100%"
+     }
   },
   "search-result-layout.customQuery": {
     "props": {
-      "orderByField": "OrderByReleaseDateDESC",
-      "hideUnavailableItems": false,
-      "maxItemsPerPage": 8,
-      "queryField": "Blue Top Retro Camera"    
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera"
+      }
     }
   }
 }
