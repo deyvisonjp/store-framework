@@ -24,11 +24,6 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#small-appliances": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#small"
-    ]
-  },
   "vtex.menu@2.x:submenu#small": {
     "children": [
       "vtex.menu@2.x:menu#small"
@@ -43,11 +38,6 @@
     "props": {
       "orientation": "vertical"
     }
-  },
-  "menu-item#electronics": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#electronics"
-    ]
   },
   "vtex.menu@2.x:submenu#electronics": {
     "children": [
