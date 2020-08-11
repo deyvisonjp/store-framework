@@ -49,6 +49,7 @@
     },
     "header-row#main-mobile": {
         "children": [
+            "menu#drawer",
             "logo",
             "header-spacer",
             "minicart",
@@ -90,5 +91,5 @@
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
         ]
-    },
+    }
 }
