@@ -1,6 +1,6 @@
 {
   "vtex.menu@2.x:menu#categories": {
-    "blocks": [
+    "children": [
       "menu-item#major-appliances",
       "menu-item#small-appliances",
       "menu-item#electronics"
@@ -10,7 +10,7 @@
     }
   },
   "menu-item#major-appliances": {
-    "children": [
+    "blocks": [
       "vtex.menu@2.x:submenu#major"
     ]
   },
