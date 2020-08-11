@@ -27,7 +27,7 @@
       "order-by.v2"
     ]
   },
-  "flex-layout.row#results":{
+  "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"
@@ -47,9 +47,14 @@
     ]
   },
   "search-content": {
-    "blocks": ["gallery", "not-found"]
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
   },
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }

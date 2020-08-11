@@ -49,7 +49,7 @@
     },
     "header-row#main-mobile": {
         "children": [
-            "menu#drawer",
+            "drawer",
             "logo",
             "header-spacer",
             "minicart",
